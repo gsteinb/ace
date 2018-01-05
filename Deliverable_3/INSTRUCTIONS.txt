@@ -1,0 +1,13 @@
+Instructions for setting up program for testing:
+
+This folder contains 3 files:
+1. database_api.py - containing all functions that interact directly with the database using sql
+2. main.py - containing the main code to run the program with it's GUI
+3. ace.db - an initialised database with a first user set to: (id=1, role=1, name=1, email=1, password=1)
+
+Place all three files in the same folder
+Run main.py using python3
+Use credentials: 1, 1 respectively in the login fields
+After login, you can add new users, add problems, remove problems and edit problems
+
+Enjoy!

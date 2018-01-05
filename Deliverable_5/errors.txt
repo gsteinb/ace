@@ -1,0 +1,9 @@
+# list of errors that I have encountered while programming.
+
+-> NoneType not able to index when calling set_uid in all_grades.py line 54. FIXED
+-> When didnt select an assignment in filter Grades
+-> When using edit grade, all of a sudden you are logged as a user not admin.
+-> error when filtering for user and student option is selected without selecting students
+-> when using view attempt for the users, does not delete old labels, but pastes label over old label 
+-> Viewing past attempts back button goes back two screens instead of one
+-> When Viewing current attempt, print statement "no progress yet" ??
