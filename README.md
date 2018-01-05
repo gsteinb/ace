@@ -7,7 +7,7 @@
 *********************************************************
 
 
-		ACE OF SPADES v 0.5
+		ACE OF SPADES v 0.6
 
 
 *********************************************************
@@ -21,13 +21,18 @@ This folder contains 2 types of files:
 	 (id=2, role=student, password=2)
 
 Place all files in the same folder
+Install PIL pillow library for Images with Tkinter
+Install Latex
 Run main.py using python3 with library Tkinter installed
 Use credentials: 1, 1 in the login fields or 2, 2 to login as student or admin respectively
-After login,
- as an admin: you can add new users, add problems, remove problems and edit problems,
- view assignments, edit assignments, View grades
-As a student : you can submit, and save progress, view the leaderboards
 
+After login,
+ as an admin: you can manage new users, add problems manual, add random problems, manage problems,
+ view assignments, edit assignments, View grades, view Leaderboard
+As a student : you can complete an assignment, and save progress, view past attempts, view current attempts,
+view hints, download sets as PDF, view the leaderboards
+
+Info is stored on a SQLITE database
 
 ****************************************************
 
